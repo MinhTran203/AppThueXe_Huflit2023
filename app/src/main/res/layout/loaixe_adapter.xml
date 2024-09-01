@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ID loại xe"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/idlaoixe"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="ID Loại Xe"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên Loại Xe"
+            android:textSize="25dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/idtenloaixe"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:text="ID Loại Xe"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
